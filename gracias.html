@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Gracias por tu Solicitud! | MediBridge</title>
+    
+    <!-- Meta Robots to prevent indexation of thanks page but follow links -->
+    <meta name="robots" content="noindex, follow">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        medical: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            900: '#1e3a8a',
+                            dark: '#0f172a',
+                            card: '#1e293b'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        .hero-grid {
+            background-image: radial-gradient(rgba(59, 130, 246, 0.12) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-200 antialiased bg-slate-950 min-h-screen flex flex-col justify-between hero-grid">
+
+    <!-- Header / Brand -->
+    <header class="py-6 border-b border-slate-900 bg-slate-950/50 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-black tracking-tight flex items-center gap-2 group">
+                <div class="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg transition-colors bg-blue-600 text-white shadow-blue-600/20">
+                    <i data-lucide="activity" class="w-6 h-6"></i>
+                </div>
+                <span class="text-white">
+                    Medi<span class="text-blue-500">Bridge</span>
+                </span>
+            </a>
+            <a href="https://wa.me/14698518009" class="text-sm font-semibold text-slate-300 hover:text-blue-400 flex items-center gap-2 transition-colors">
+                <i data-lucide="phone" class="w-4 h-4"></i> +1-469-851-8009
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Message Area -->
+    <main class="flex-grow flex items-center justify-center py-16 px-6 relative">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-blue-600/10 rounded-full filter blur-[120px] pointer-events-none"></div>
+
+        <div class="max-w-xl w-full p-8 sm:p-12 rounded-[2.5rem] border border-slate-800 glass-card text-center space-y-8 shadow-2xl relative overflow-hidden">
+            <div class="absolute -right-20 -top-20 w-40 h-40 bg-green-500/10 rounded-full blur-[60px]"></div>
+
+            <!-- Success check -->
+            <div class="w-20 h-20 rounded-full bg-green-500/10 border border-green-500/30 text-green-400 flex items-center justify-center mx-auto shadow-lg shadow-green-500/5 animate-bounce">
+                <i data-lucide="check-check" class="w-10 h-10"></i>
+            </div>
+
+            <div class="space-y-3">
+                <h1 class="text-3xl font-black text-white">¡Solicitud Enviada!</h1>
+                <p class="text-slate-400 text-base leading-relaxed">
+                    Hemos recibido correctamente tus datos técnicos. Uno de nuestros ingenieros biomédicos especialistas verificará la compatibilidad de la pieza y te enviará la cotización.
+                </p>
+            </div>
+
+            <!-- Box indicating timeline -->
+            <div class="bg-slate-950/60 rounded-2xl border border-slate-800/80 p-4 text-left font-mono text-xs text-slate-400 space-y-2">
+                <div class="flex justify-between items-center text-slate-500 border-b border-slate-900 pb-2 mb-2">
+                    <span>SEGUIMIENTO DE CASO</span>
+                    <span class="text-green-400 font-bold">RECIBIDO</span>
+                </div>
+                <p><span class="text-blue-500">•</span> Registro guardado en base de datos.</p>
+                <p><span class="text-blue-500">•</span> Notificación por email enviada a soporte.</p>
+                <p><span class="text-blue-500">•</span> Tiempo de respuesta estimado: <span class="text-white">Menos de 2 horas</span>.</p>
+            </div>
+
+            <!-- Actions -->
+            <div class="flex flex-col gap-3 pt-2">
+                <a href="https://wa.me/14698518009" class="w-full bg-green-600 hover:bg-green-500 text-white py-4 rounded-xl font-bold transition-all shadow-lg shadow-green-600/20 hover:scale-[1.02] flex items-center justify-center gap-2">
+                    <i data-lucide="message-square" class="w-5 h-5"></i> ¿Urgente? Chatea por WhatsApp
+                </a>
+                <a href="index.html" class="w-full bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2">
+                    <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver a la página de inicio
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-900 bg-slate-950/80 text-center text-xs text-slate-600">
+        <div class="max-w-7xl mx-auto px-6">
+            <p>&copy; 2026 MediBridge. Todos los derechos reservados. Distribuidor Independiente de Repuestos de Ultrasonido.</p>
+        </div>
+    </footer>
+
+    <!-- Init icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

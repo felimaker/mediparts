@@ -5,43 +5,139 @@
   <!-- Página Principal -->
   <url>
     <loc>https://medibridgeusa.com</loc>
-    <lastmod>2025-11-22</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://medibridgeusa.com/img/Philips_iE33_Ultrasound.jpg</image:loc>
       <image:title>Philips iE33 Sistema de Ultrasonido</image:title>
-      <image:caption>Sistema de ultrasonido Philips iE33 - Reparación especializada por MediBridge USA</image:caption>
+      <image:caption>Sistema de ultrasonido Philips iE33 - Reparación y repuestos por MediBridge</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://medibridgeusa.com/img/Philips_iU22_Ultrasound.jpg</image:loc>
       <image:title>Philips iU22 Sistema de Ultrasonido</image:title>
-      <image:caption>Sistema de ultrasonido Philips iU22 - Servicio de reparación profesional</image:caption>
+      <image:caption>Sistema de ultrasonido Philips iU22 - Servicio de repuestos y transductores</image:caption>
     </image:image>
   </url>
   
+  <!-- Catálogo de Repuestos (SEO Principal) -->
+  <url>
+    <loc>https://medibridgeusa.com/repuestos.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Páginas de Producto de Sistemas -->
+  <url>
+    <loc>https://medibridgeusa.com/producto-ie33.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medibridgeusa.com/producto-iu22.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medibridgeusa.com/producto-cx50.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medibridgeusa.com/producto-vivid-i.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medibridgeusa.com/producto-vivid-q.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Páginas de Producto de Transductores -->
+  <url>
+    <loc>https://medibridgeusa.com/transductor-s5-1.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medibridgeusa.com/transductor-x5-1.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medibridgeusa.com/transductor-x7-2t.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medibridgeusa.com/transductor-3s-rs.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medibridgeusa.com/transductor-m4s-rs.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medibridgeusa.com/transductor-9t-rs.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medibridgeusa.com/transductor-rab6-d.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medibridgeusa.com/transductor-c5-1.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://medibridgeusa.com/transductor-l12-5.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Sección de Servicios -->
   <url>
-    <loc>https://medibridgeusa.com#services</loc>
-    <lastmod>2025-11-22</lastmod>
+    <loc>https://medibridgeusa.com#categorias</loc>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   
-  <!-- Sección de Generaciones -->
+  <!-- Sección de Confianza / Calidad -->
   <url>
-    <loc>https://medibridgeusa.com#generations</loc>
-    <lastmod>2025-11-22</lastmod>
+    <loc>https://medibridgeusa.com#confianza</loc>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   
   <!-- Sección de Contacto -->
   <url>
-    <loc>https://medibridgeusa.com#contact</loc>
-    <lastmod>2025-11-22</lastmod>
+    <loc>https://medibridgeusa.com#contacto</loc>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
