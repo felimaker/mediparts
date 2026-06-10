@@ -1,4 +1,4 @@
-// Base de datos de compatibilidad y repuestos para MediBridge
+// Base de datos de compatibilidad y repuestos para MediParts
 const COMPATIBILITY_DATABASE = {
     brands: {
         "Philips": ["iE33", "iU22", "CX50 Portable", "Affiniti 50", "Affiniti 70", "EPIQ 5", "EPIQ 7", "EPIQ CVx", "ClearVue 350", "ClearVue 550"],
